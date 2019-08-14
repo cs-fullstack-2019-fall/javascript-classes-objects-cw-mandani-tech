@@ -76,7 +76,7 @@ class Movie
  let newMovie = new Movie("ddjl","3.5", 1995);
  console.log(newMovie);
 
- newMovie.changeRating("5.5");
+ newMovie.changeRating("5.5"); // console.log(classInstance.yourFunction(value)) to print what you are returning
  newMovie.changeYear("2003");
  console.log(newMovie);
 
@@ -86,7 +86,7 @@ class Movie
 
 
 
-//     ### Challenge 1:
+//     ### Challenge 1: CORRECT
 // Create a Person class with three properties: name, weight, and height.
 // Create a method that can calculate the BMI of a person using the formula below.
 // Create an object of the class and use the function.
